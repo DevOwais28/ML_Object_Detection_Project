@@ -140,12 +140,13 @@ while True:
 conn.close()
 server.close()
 
-
+```
 📱 Android Permissions
 
+```bash
 <uses-permission android:name="android.permission.CAMERA"/>
 <uses-permission android:name="android.permission.INTERNET"/>
-
+```
 🎯 Use Cases
 
 Person detection
