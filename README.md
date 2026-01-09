@@ -1,5 +1,5 @@
 
-# 📱 Real-Time Object Detection (Android + YOLO Python)
+## 📱 Real-Time Object Detection (Android + YOLO Python)
 
 This project demonstrates **real-time object detection** using an **Android application (CameraX + Kotlin)** connected to a **Python YOLO server** via **TCP sockets**.
 
@@ -15,7 +15,6 @@ The Android app captures live camera frames, sends them to a Python server where
 - JSON-based detection results
 - Real-time performance
 
----
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +32,6 @@ The Android app captures live camera frames, sends them to a Python server where
 - NumPy
 - Socket Programming
 
----
 
 ## 📐 System Architecture
 
@@ -66,8 +64,9 @@ YOLO-Android-Object-Detection/ │ ├── android-app/ │   ├── MainAc
 
 ## 🐍 Python Server Setup
 
-### 1️⃣ Install Dependencies
 ```bash
+### 1️⃣ Install Dependencies
+
 pip install ultralytics opencv-python numpy
 
 2️⃣ Python YOLO Server (server.py)
